@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.main {
+    background: #91c492;
+    border: 2px solid #1d831f;
+    width: 400px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.foto{
+    width: 200px;
+    height: 180px;
+    background-image: url("./Images/acc.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 70px auto;
+}
+.Navik{
+    height: 400px; 
+    width: 100%; 
+}
+.Contact{
+    display: flex;
+ flex-direction: column;
+ height: 250px;
+ width: 100%;
+text-align: left;
+margin: 0px 20px;
+} 
+#block_container {
+    display: flex;
+    justify-content: center;
+}
+
+.PMain {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    color: #1d831f;
+    margin-top: 20px ;
+}
+
+.PData {
+    color: #252525;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+   
+}
+
+.Robota {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    padding: 0;
+    color: #464242;
+}
+
+.main2 {
+    width: 50%;
+    height: 100vh;
+    text-align: left;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Options {
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 600;
+    color: #464242;
+}
+
+.DataFill {
+    color: #252525;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400; 
+}
+.DataYear{
+    color: #686767;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0px 2px;
+}
+.DataInfo{
+    color: #252525;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 5px 0px;
+}

@@ -1,0 +1,76 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+ .Data{
+    width: 280px;
+    height: 900px;
+    margin: 30px auto;
+ }
+ .Data a{
+    font-family: 'Roboto Slab', serif;
+        font-size: 55px;
+        font-weight: 600;
+        color: #464242;
+        margin: 30px -20px;
+ }
+ .col-15 {
+     display: inline-block;
+     position: relative;
+ }
+
+ .textbox-15 {
+    margin: 10px 0px;
+     padding: 2px 0;
+     font-size: 14px;
+     color: #333;
+     height: 30px;
+     width: 274px;
+     letter-spacing: 1px;
+     border: 1px solid transparent;
+     border-bottom-color: #ccc;
+     transition: 0.4s;
+     outline: none;
+ }
+
+ .textbox-15~.focus-border-15 {
+    margin: 10px 0px;
+     position: absolute; 
+     height: 35px;
+     bottom: 0;
+     left: 0;
+     width: 0;
+     transition: 0.4s;
+ }
+
+ .textbox-15:focus~.focus-border-15 {
+    width: 99%;
+    height: 66%;
+    padding: 1px;
+     transition: 0.4s;
+     border: 2px solid #1d831f;
+ }
+
+ .textbox-15:focus {
+     padding: 10px;
+     transition: 0.4s;
+ }
+ .mainDiv {  
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+ }
+ .main2 {
+      width: 280px;
+     height: 100%;
+     text-align: left;
+     margin: 0px 30px;
+     display: flex;
+     flex-direction: column;
+ } 
+ #block_container {
+     display: flex;
+     justify-content: center;
+ }
